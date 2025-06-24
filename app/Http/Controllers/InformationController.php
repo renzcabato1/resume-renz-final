@@ -17,11 +17,11 @@ class InformationController extends Controller
 
     public function home()
     {
-        $information = Information::first();
+        // $information = Information::first();
         return view('welcome',
         array(
             'header' => 'home',
-            'information' => $information,
+            // 'information' => $information,
         ));
     }
     public function resume()

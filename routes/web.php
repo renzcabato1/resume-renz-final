@@ -19,7 +19,5 @@ Route::get('/skills','InformationController@resume');
 Route::get('/history','InformationController@resume');
 
 Auth::routes();
-Route::group( ['middleware' => 'auth'], function()
-{
+
 Route::get('/','InformationController@home')->name('home');
-});
