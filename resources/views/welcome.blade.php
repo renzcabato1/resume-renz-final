@@ -82,9 +82,9 @@
       <img src="images/doms.png" alt="">
       <h3>Dental Operations Management System</h3>
     </div>
-    <div class="project-item" onclick="openNModal(2)">
-      <img src="project2a.jpg" alt="">
-      <h3>Task Management API</h3>
+    <div class="project-item" onclick="openModal(2)">
+      <img src="images/hris.png" alt="">
+      <h3>Human Resources Management System</h3>
     </div>
     <div class="project-item" onclick="openModal(3)">
       <img src="project3a.jpg" alt="">
@@ -107,25 +107,87 @@
 <a href="#contact" class="hire-me-btn"><i class="fas fa-paper-plane"></i> Hire Me</a>
 
 <div class="modal" id="modal1">
-  <div class="modal-content">
+  <div class="modal-content modal-lg">
     <button class="close-btn" onclick="closeModal(1)">&times;</button>
-    <h3>Inventory Management System</h3>
-    <img src="project1a.jpg" alt="">
-    <img src="project1b.jpg" alt="">
-    <p>Laravel-based inventory for multi-location stock, alerts, automated valuation.</p>
-    <p><strong>Demo:</strong> demo@inventory.com / 123456</p>
-    <p><a href="#" target="_blank">View Live Demo</a></p>
+    <h3>Dental Operations Management System</h3>
+    <img src="images/doms.png" alt="">
+     <p><strong>Demo:</strong> superadmin@gmail.com / 12345678</p>
+    <p><a href="https://awesamportal.demo.renzcabato.online/" target="_blank">View Live Demo</a></p>
+    <br>
+   📦 Inventory Management <br>
+        Track stock levels, monitor ideal stock, and get low stock alerts in real-time.<br>
+        <br>
+        💰 Sales Transactions<br>
+        Quick and reliable sales processing with custom pricing and detailed reports.<br>
+        <br>
+        👥 Client Management<br>
+        Organize client data and transaction history for better service and retention.<br>
+        <br>
+        🔐 User Management<br>
+        Role-based access with activity tracking for secure and accountable usage.<br>
+        <br>
+        🌍 Unlimited Locations<br>
+        Manage inventory and operations across multiple branches with ease.<br>
+        
   </div>
 </div>
 <div class="modal" id="modal2">
   <div class="modal-content">
     <button class="close-btn" onclick="closeModal(2)">&times;</button>
-    <h3>Task Management API</h3>
-    <img src="project2a.jpg" alt="">
-    <img src="project2b.jpg" alt="">
-    <p>Role-based Laravel API with comments, logging, file upload.</p>
-    <p><strong>Demo:</strong> task@demo.com / 123456</p>
-    <p><a href="#" target="_blank">View API Docs</a></p>
+    <h3>Human Resources Management System</h3>
+    <img src="images/hris.png" alt="" class="img-fluid mb-3">
+    <div class="modal-body">
+      <p><strong>Demo:</strong> admin@gmail.com / 12345678</p>
+      <p><a href="https://hris.demo.renzcabato.online/" target="_blank">Demo Link</a></p>
+
+      <section id="hris-features">
+        <h4 class="text-center mb-4">HRIS Key Features</h4>
+        <div class="row g-4">
+          <!-- Feature Cards -->
+          <div class="col-md-6">
+            <div class="p-3 border rounded shadow-sm h-100">
+              <h5>🕒 Timekeeping & Attendance</h5>
+              <p>Track time-in/out via web camera, geolocation, or biometrics device integration for secure attendance logging.</p>
+            </div>
+          </div>
+
+          <div class="col-md-6">
+            <div class="p-3 border rounded shadow-sm h-100">
+              <h5>💼 Payroll & YTD Reports</h5>
+              <p>Automated payroll with government deductions, downloadable payslips, and Year-To-Date summaries.</p>
+            </div>
+          </div>
+
+          <div class="col-md-6">
+            <div class="p-3 border rounded shadow-sm h-100">
+              <h5>💳 Loan & Leave Management</h5>
+              <p>Manage employee loans with scheduled deductions, track leave credits, and handle leave approvals easily.</p>
+            </div>
+          </div>
+
+          <div class="col-md-6">
+            <div class="p-3 border rounded shadow-sm h-100">
+              <h5>📁 Employee 201 Files & HR Forms</h5>
+              <p>Centralized digital records for employees, HR forms, contracts, and policy documents.</p>
+            </div>
+          </div>
+
+          <div class="col-md-6">
+            <div class="p-3 border rounded shadow-sm h-100">
+              <h5>📆 Schedules, Holidays & Shifts</h5>
+              <p>Create and manage shifts, holiday calendars, and schedule assignments with ease.</p>
+            </div>
+          </div>
+
+          <div class="col-md-6">
+            <div class="p-3 border rounded shadow-sm h-100">
+              <h5>👥 Unlimited Users & Access Control</h5>
+              <p>Supports unlimited users with secure role-based access for HR staff, admins, and employees.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
   </div>
 </div>
 <div class="modal" id="modal3">

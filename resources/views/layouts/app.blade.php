@@ -52,6 +52,52 @@
   body.dark-mode nav,body.dark-mode footer { background:#0f172a;}
   body.dark-mode a,body.dark-mode .contact-item { color:#60a5fa;}
 </style>
+<style>
+  .modal {
+    display: none; /* hidden by default */
+    position: fixed;
+    z-index: 9999;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+
+  .modal-content {
+    position: relative;
+    background-color: #fff;
+    margin: 5% auto;
+    padding: 20px;
+    border-radius: 10px;
+    width: 90%;
+    max-width: 800px;
+    max-height: 90vh;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .modal-content h3 {
+    margin-top: 0;
+  }
+
+  .close-btn {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    background: none;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+  }
+
+  .modal-body {
+    overflow-y: auto;
+    padding-right: 10px;
+    margin-top: 20px;
+  }
+</style>
 </head>
 <body>
 
