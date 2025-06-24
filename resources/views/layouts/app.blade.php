@@ -107,7 +107,7 @@
 <header>
   <h1>Renz Cabato</h1>
   <p>Senior Web Developer | Laravel • JavaScript • PHP • AI & Process Automation</p>
-  <a href="resume.pdf" class="download-resume" download><i class="fas fa-download"></i> Download Resume</a>
+  <a href="resume.pdf"  class="download-resume" target="_blank"><i class="fas fa-download"></i> Download Resume</a>
 </header>
    
 @yield('content')
