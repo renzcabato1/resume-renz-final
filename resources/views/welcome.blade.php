@@ -90,6 +90,10 @@
       <img src="images/crms.jpg" alt="">
       <h3>Pointing System</h3>
     </div>
+    <div class="project-item" onclick="openModal(4)">
+      <img src="images/xtana.jpg" alt="">
+      <h3>Retrieval-Augmented Generation (RAG) Chatbot</h3>
+    </div>
   </div>
 </section>
 
@@ -195,79 +199,79 @@
     <button class="close-btn" onclick="closeModal(3)">&times;</button>
     <h3>CRMS with Pointing System</h3>
     <img src="images/crms.jpg" alt="">
-    <section class="container py-5">
-  <h2 class="text-center mb-4">CRM Modules with Pointing System</h2>
+    <div class="modal-body">
 
-  <div class="row g-4">
-    <div class="col-md-6">
-      <div class="card h-100 shadow-sm">
-        <div class="card-body">
-          <h5 class="card-title">📦 Customer Management</h5>
-          <ul class="mb-0">
-            <li>Customer profiles & refill history</li>
-            <li>Track purchases and activity</li>
-            <li>Earn points per transaction</li>
-          </ul>
-        </div>
-      </div>
+        <p><strong>Demo:</strong> admin@gmail.com / 12345678</p>
+        <p><a href="https://crms.demo.renzcabato.online" target="_blank">Explore Demo</a></p>
+           <section id="CRMS">
+            <div class="row g-4">
+              <div class="col-md-6">
+                <div class="card h-100 shadow-sm">
+                  <div class="card-body">
+                    <h5 class="card-title">📦 Customer Management</h5>
+                    <ul class="mb-0">
+                      <li>Customer profiles & refill history</li>
+                      <li>Track purchases and activity</li>
+                      <li>Earn points per transaction</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-6">
+                <div class="card h-100 shadow-sm">
+                  <div class="card-body">
+                    <h5 class="card-title">🔄 Refill & Purchase Monitoring</h5>
+                    <ul class="mb-0">
+                      <li>Log refill transactions</li>
+                      <li>Auto-calculate points</li>
+                      <li>Send reminders for refills</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-6">
+                <div class="card h-100 shadow-sm">
+                  <div class="card-body">
+                    <h5 class="card-title">⭐ Pointing System</h5>
+                    <ul class="mb-0">
+                      <li>Custom earning rules</li>
+                      <li>Redeem for rewards or discounts</li>
+                      <li>Full points ledger/history</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-6">
+                <div class="card h-100 shadow-sm">
+                  <div class="card-body">
+                    <h5 class="card-title">📈 Dealer & Sales Tracking</h5>
+                    <ul class="mb-0">
+                      <li>Dealer profiles & assigned areas</li>
+                      <li>Track dealer sales and commissions</li>
+                      <li>Performance leaderboards</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-12">
+                <div class="card h-100 shadow-sm">
+                  <div class="card-body">
+                    <h5 class="card-title">📊 Reports & Analytics</h5>
+                    <ul class="mb-0">
+                      <li>Sales summaries & trends</li>
+                      <li>Customer/dealer performance</li>
+                      <li>Points usage reports</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+           </section>
     </div>
-
-    <div class="col-md-6">
-      <div class="card h-100 shadow-sm">
-        <div class="card-body">
-          <h5 class="card-title">🔄 Refill & Purchase Monitoring</h5>
-          <ul class="mb-0">
-            <li>Log refill transactions</li>
-            <li>Auto-calculate points</li>
-            <li>Send reminders for refills</li>
-          </ul>
-        </div>
-      </div>
-    </div>
-
-    <div class="col-md-6">
-      <div class="card h-100 shadow-sm">
-        <div class="card-body">
-          <h5 class="card-title">⭐ Pointing System</h5>
-          <ul class="mb-0">
-            <li>Custom earning rules</li>
-            <li>Redeem for rewards or discounts</li>
-            <li>Full points ledger/history</li>
-          </ul>
-        </div>
-      </div>
-    </div>
-
-    <div class="col-md-6">
-      <div class="card h-100 shadow-sm">
-        <div class="card-body">
-          <h5 class="card-title">📈 Dealer & Sales Tracking</h5>
-          <ul class="mb-0">
-            <li>Dealer profiles & assigned areas</li>
-            <li>Track dealer sales and commissions</li>
-            <li>Performance leaderboards</li>
-          </ul>
-        </div>
-      </div>
-    </div>
-
-    <div class="col-12">
-      <div class="card h-100 shadow-sm">
-        <div class="card-body">
-          <h5 class="card-title">📊 Reports & Analytics</h5>
-          <ul class="mb-0">
-            <li>Sales summaries & trends</li>
-            <li>Customer/dealer performance</li>
-            <li>Points usage reports</li>
-          </ul>
-        </div>
-      </div>
-    </div>
-  </div>
-  </section>
-
-    <p><strong>Demo:</strong> admin@gmail.com / 12345678</p>
-    <p><a href="crms.demo.renzcabato.online" target="_blank">Explore Demo</a></p>
   </div>
 </div>
 <div class="modal" id="modal4">
@@ -275,89 +279,90 @@
     <button class="close-btn" onclick="closeModal(4)">&times;</button>
     <h3>Retrieval-Augmented Generation (RAG).</h3>
     <img src="images/xtana.jpg" alt="">
-    <section class="container py-5">
-  <h2 class="text-center mb-4">🧠 Retrieval-Augmented Generation (RAG) Chatbot</h2>
+        <div class="modal-body">
+          <section class="container py-5">
+            <h2 class="text-center mb-4">🧠 Retrieval-Augmented Generation (RAG) Chatbot</h2>
 
-  <div class="row g-4">
-    <div class="col-12">
-      <div class="card shadow-sm">
-        <div class="card-body">
-          <h5 class="card-title">🔍 What is RAG?</h5>
-          <p>RAG (Retrieval-Augmented Generation) is an AI approach that combines a language model (like ChatGPT) with real data from your website, database, or files to generate more accurate answers.</p>
-          <p>Instead of guessing, it retrieves relevant content from your knowledge base before answering.</p>
+            <div class="row g-4">
+              <div class="col-12">
+                <div class="card shadow-sm">
+                  <div class="card-body">
+                    <h5 class="card-title">🔍 What is RAG?</h5>
+                    <p>RAG (Retrieval-Augmented Generation) is an AI approach that combines a language model (like ChatGPT) with real data from your website, database, or files to generate more accurate answers.</p>
+                    <p>Instead of guessing, it retrieves relevant content from your knowledge base before answering.</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-6">
+                <div class="card shadow-sm h-100">
+                  <div class="card-body">
+                    <h5 class="card-title">📁 Step 1: Upload Your Data</h5>
+                    <ul>
+                      <li>Website content (HTML, text)</li>
+                      <li>PDF, Word, Excel, CSV, JSON</li>
+                      <li>Database exports (SQL, NoSQL)</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-6">
+                <div class="card shadow-sm h-100">
+                  <div class="card-body">
+                    <h5 class="card-title">📚 Step 2: Index & Embed</h5>
+                    <ul>
+                      <li>Split content into chunks</li>
+                      <li>Convert text into vector embeddings</li>
+                      <li>Store in a vector database (Pinecone, FAISS, etc.)</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-6">
+                <div class="card shadow-sm h-100">
+                  <div class="card-body">
+                    <h5 class="card-title">💬 Step 3: Ask Questions</h5>
+                    <ul>
+                      <li>Bot retrieves relevant chunks</li>
+                      <li>Passes them to GPT for response</li>
+                      <li>Answer is grounded in your data</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-6">
+                <div class="card shadow-sm h-100">
+                  <div class="card-body">
+                    <h5 class="card-title">⚙️ Tools & Frameworks</h5>
+                    <ul>
+                      <li><strong>LangChain / LlamaIndex</strong> - RAG orchestration</li>
+                      <li><strong>Pinecone / FAISS / Chroma</strong> - Vector DB</li>
+                      <li><strong>OpenAI API</strong> - GPT answering</li>
+                      <li><strong>Streamlit / React / Custom UI</strong> - Chat frontend</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-12">
+                <div class="card shadow-sm">
+                  <div class="card-body">
+                    <h5 class="card-title">✅ Chatbot Capabilities</h5>
+                    <ul>
+                      <li>Answer FAQs from your website or docs</li>
+                      <li>Query internal systems or databases</li>
+                      <li>Stay factual by using your real content</li>
+                      <li>Combine multiple sources (CRM + docs + SQL)</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
         </div>
-      </div>
-    </div>
-
-    <div class="col-md-6">
-      <div class="card shadow-sm h-100">
-        <div class="card-body">
-          <h5 class="card-title">📁 Step 1: Upload Your Data</h5>
-          <ul>
-            <li>Website content (HTML, text)</li>
-            <li>PDF, Word, Excel, CSV, JSON</li>
-            <li>Database exports (SQL, NoSQL)</li>
-          </ul>
-        </div>
-      </div>
-    </div>
-
-    <div class="col-md-6">
-      <div class="card shadow-sm h-100">
-        <div class="card-body">
-          <h5 class="card-title">📚 Step 2: Index & Embed</h5>
-          <ul>
-            <li>Split content into chunks</li>
-            <li>Convert text into vector embeddings</li>
-            <li>Store in a vector database (Pinecone, FAISS, etc.)</li>
-          </ul>
-        </div>
-      </div>
-    </div>
-
-    <div class="col-md-6">
-      <div class="card shadow-sm h-100">
-        <div class="card-body">
-          <h5 class="card-title">💬 Step 3: Ask Questions</h5>
-          <ul>
-            <li>Bot retrieves relevant chunks</li>
-            <li>Passes them to GPT for response</li>
-            <li>Answer is grounded in your data</li>
-          </ul>
-        </div>
-      </div>
-    </div>
-
-    <div class="col-md-6">
-      <div class="card shadow-sm h-100">
-        <div class="card-body">
-          <h5 class="card-title">⚙️ Tools & Frameworks</h5>
-          <ul>
-            <li><strong>LangChain / LlamaIndex</strong> - RAG orchestration</li>
-            <li><strong>Pinecone / FAISS / Chroma</strong> - Vector DB</li>
-            <li><strong>OpenAI API</strong> - GPT answering</li>
-            <li><strong>Streamlit / React / Custom UI</strong> - Chat frontend</li>
-          </ul>
-        </div>
-      </div>
-    </div>
-
-    <div class="col-12">
-      <div class="card shadow-sm">
-        <div class="card-body">
-          <h5 class="card-title">✅ Chatbot Capabilities</h5>
-          <ul>
-            <li>Answer FAQs from your website or docs</li>
-            <li>Query internal systems or databases</li>
-            <li>Stay factual by using your real content</li>
-            <li>Combine multiple sources (CRM + docs + SQL)</li>
-          </ul>
-        </div>
-      </div>
-    </div>
-  </div>
-  </section>
-
   </div>
 </div>
 @endsection
