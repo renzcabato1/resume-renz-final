@@ -23,7 +23,7 @@
     <div class="service-item"><i class="fas fa-desktop"></i><h3>Web Application Dev</h3></div>
     <div class="service-item"><i class="fas fa-network-wired"></i><h3>API Integration</h3></div>
     <div class="service-item"><i class="fas fa-cogs"></i><h3>Process Automation</h3></div>
-    <div class="service-item"><i class="fas fa-building-user"></i><h3>Company Website</h3></div>
+    <div class="service-item"><i class="fas fa-dashboard"></i><h3>Odoo System Development</h3></div>
   </div>
 </section>
 
@@ -40,6 +40,9 @@
       <span class="skill-item"><i class="fab fa-laravel"></i> Laravel</span>
     <span class="skill-item"><i class="fab fa-node-js"></i> Node.js</span>
     <span class="skill-item"><i class="fab fa-wordpress"></i> Wordpress</span>
+    <span class="skill-item"><i class="fab fa-python"></i> Python</span>
+    <span class="skill-item"><i class="fab fa-reorder"></i> Odoo ORM</span>
+    <span class="skill-item"><i class="fab fa-commenting"></i> Odoo OWL</span>
     </div>
   </div>
   <div class="skills-group"><h3>Back-End / Servers</h3>
@@ -93,6 +96,10 @@
     <div class="project-item" onclick="openModal(4)">
       <img src="images/xtana.jpg" alt="">
       <h3>Retrieval-Augmented Generation (RAG) Chatbot</h3>
+    </div>
+    <div class="project-item" onclick="openModal(5)">
+      <img src="images/odoo.jpg" alt="">
+      <h3>Odoo Development (confidential)</h3>
     </div>
   </div>
 </section>
@@ -356,6 +363,38 @@
                       <li>Query internal systems or databases</li>
                       <li>Stay factual by using your real content</li>
                       <li>Combine multiple sources (CRM + docs + SQL)</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+        </div>
+  </div>
+</div>
+<div class="modal" id="modal5">
+  <div class="modal-content">
+    <button class="close-btn" onclick="closeModal(5)">&times;</button>
+    <h3>Odoo Development (confidential).</h3>
+        <div class="modal-body">
+          <section class="container py-5">
+            <h2 class="text-center mb-4">Odoo Development (confidential)</h2>
+
+            <div class="row g-4">
+            
+
+              <div class="col-12">
+                <div class="card shadow-sm">
+                  <div class="card-body">
+                    <h5 class="card-title">as a Odoo Developer</h5>
+                    <ul>
+                      <li>🐍 Developed over 15 custom modules in Odoo v12 to v16, across CRM, Accounting, Inventory, and HR systems.</li>
+                      <li>🧩 Customized core modules such as sale, purchase, stock, and account to meet client-specific workflows.</li>
+                      <li>📊 Built dynamic reports using QWeb (PDF invoices, stock valuation reports) and custom dashboards.</li>
+                      <li>🔄 Integrated Odoo with third-party platforms via REST APIs (e.g., Shopify, PayMongo, Viber SMS).</li>
+                      <li> 🛡️ Implemented access controls and record rules for multi-user, multi-company environments.</li>
+                        <li> 🚀 Migrated legacy Odoo v12 instance to v16 with full data preservation and test coverage.</li>
+                          <li> ⚙️ Automated invoice generation and scheduled email reminders via cron jobs.></li>
                     </ul>
                   </div>
                 </div>
